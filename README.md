@@ -6,3 +6,6 @@ After you've backed up your config, you can `git clone` the repo into your neovi
 
 
 That might look like this: `git clone https://github.com/Keterion/nvim_config ~/.config/nvim/`
+
+## Getting started
+You might have to run `:PackerSync` and `:MasonUpdate` in neovim after you've copied the repo
