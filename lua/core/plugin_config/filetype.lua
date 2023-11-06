@@ -3,6 +3,8 @@ require("filetype").setup({
     extensions = {
       typ = "typst",
       html = "html",
+      java = "java",
+      jar = "java",
     },
   },
 })
