@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "wgsl_analyzer", "typst_lsp", "rust_analyzer", "html", "cssls", "jdtls" }
+  ensure_installed = { "lua_ls", "wgsl_analyzer", "typst_lsp", "rust_analyzer", "html", "cssls", "jdtls", "pyright" }
 })
 
 local on_attach = function(_, bufnr)
@@ -44,6 +44,10 @@ require("lspconfig").cssls.setup{
   capabilities = capabilities,
 }
 require("lspconfig").jdtls.setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+require("lspconfig").pyright.setup{
   on_attach = on_attach,
   capabilities = capabilities,
 }

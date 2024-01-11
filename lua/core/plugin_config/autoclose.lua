@@ -1,1 +1,9 @@
-require("autoclose").setup{}
+require("autoclose").setup{
+  options = {
+    disabled_filetypes = {
+      "text",
+      "markdown",
+      "typst"
+    },
+  },
+}

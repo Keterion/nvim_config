@@ -37,6 +37,7 @@ return require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip'
   use 'rafamadriz/friendly-snippets'
   use 'mattn/emmet-vim'
+  use 'stevearc/conform.nvim'
 
   use 'nathom/filetype.nvim'
 
