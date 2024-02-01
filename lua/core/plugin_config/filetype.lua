@@ -5,6 +5,7 @@ require("filetype").setup({
       html = "html",
       java = "java",
       jar = "java",
+      sh = "bash",
     },
   },
 })
